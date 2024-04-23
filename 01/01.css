@@ -10,13 +10,14 @@ p {
 
 article {
     width:100%; 
-    display: flex-col;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 div {
-    width: 80%;
+    width: 100%;
     height: 60px;
     background-color: bisque;
     border: 1px dotted gainsboro;
