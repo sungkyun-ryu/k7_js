@@ -15,13 +15,15 @@ ul {
     list-style-type: none;
 }
 
-h1 {
-    text-align: center;
-    border-style: solid;
-    border-color: black;
-    color: black;
-    background-color: lightblue;
-    
+header {
+    width: 100%; 
+    height: 90px;
+    background-color: darkblue; 
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0 20px;
 }
 
 nav{
@@ -56,7 +58,7 @@ nav > ul > li{
 
 } */
 
-div > ul > li{
+section > ul > li{
     background-color: beige;
 }
 
@@ -67,6 +69,6 @@ nav > ul > li:hover{
 
 a, a:visited, a:link {
     text-decoration: none;
-    color: black: 
+    color: rgb(121, 90, 90): 
 }
 
