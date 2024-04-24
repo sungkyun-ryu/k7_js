@@ -1,0 +1,12 @@
+#btDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px; 
+    padding: 2rem;
+}
+
+article > div {
+    width: 80%; 
+}
