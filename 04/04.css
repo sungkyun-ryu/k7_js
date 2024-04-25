@@ -1,0 +1,179 @@
+#userdie { 
+    display: flex; 
+    flex-direction: column;
+}
+
+#result { 
+    background-color:
+}
+
+/* style.css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 80%;
+    margin-left: 10%;
+    height: 100vh;
+}
+
+/* 리스트 앞 점 없애기 */
+ul {
+    list-style-type: none;
+}
+
+header {
+    width: 100%; 
+    height: 90px;
+    background-color: darkolivegreen; 
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0 20px;
+}
+
+header p {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+/* nav{
+    width: 100%;
+    height: 80px;
+}
+
+nav > ul {
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav > ul > li{
+    display: inline-flex;
+    padding: 5px;
+    justify-content: center;
+    padding: 10px; 
+    border-radius: 10px; 
+    margin: 10px 20px;
+    background-color: lightgray;
+} */
+
+/* li {
+    font-size: 18pt;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 0.1rem;
+
+} */
+
+/* section ul {
+    width: 80%;
+    margin-left: 10%;
+}
+
+section > ul > li{
+    background-color: beige;
+    height: 3rem;
+    align-content: center;
+    margin: 10px;
+}
+
+section > ul > li:hover{
+    background-color: powderblue;
+    color: black;
+}
+
+nav > ul > li:hover{
+    background-color: yellow;
+    color: white;
+} */
+
+a:visited, a:link {
+    text-decoration: none;
+    color: rgb(121, 90, 90): 
+}
+
+/* 01.css */
+p {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+article {
+    width:100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div {
+    width: 100%;
+    height: 60px;
+    background-color: bisque;
+    border: 1px dotted gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+    margin: 10px;
+}
+
+button {
+    width: 100px;
+    height: 40px; 
+    padding: 10px;
+    background-color: lightskyblue;
+    color: black;
+    border: 10px;
+    border-radius: 10px;
+    margin: 0 5px;
+}
+
+button:hover {
+    background-color:blue;
+    color: white;
+    cursor: pointer;
+}
+
+/* 03.css */
+/* #btDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px; 
+    padding: 5rem;
+} */
+
+article > div {
+    width: 80%; 
+}
+
+#btDiv4 { 
+    display: flex; 
+    flex-direction: column; 
+    height: 500px; 
+    justify-content: space-between;
+    padding: 4rem;
+
+}
