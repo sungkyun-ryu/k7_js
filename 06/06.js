@@ -5,7 +5,7 @@
 ///함수로 만들기
 // const show = (s1, s2, l1, l2) => { 
 //     if(s2.value == 'CC') s1.value = 'FF'; 
-    
+
 
 // } 
 // else {
@@ -31,14 +31,14 @@ document.addEventListener('DOMContentLoaded', ()=> {
         console.log(sel1.value, sel2.value);
         if(sel1.value == 'CC') {
             sel2.value = 'FF'; 
-            label1.textContent = 'C';
-            label2.textContent = 'F';
+            label1.textContent = '℃';
+            label2.textContent = '℉';
 
         } 
         else {
             sel2.value = 'CC'; 
-            label1.textContent = 'F';
-            label2.textContent = 'C'; 
+            label1.textContent = '℉';
+            label2.textContent = '℃'; 
         }
     })
 
@@ -57,7 +57,6 @@ document.addEventListener('DOMContentLoaded', ()=> {
         }
     })
 
-   
 
     
 })
