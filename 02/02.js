@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const bt2Text = document.createTextNode("Button 22");
 
     const bt3 = document.createElement("button");
-    const bt3Text = document.createTextNode("Button 33")
+    const bt3Text = document.createTextNode("Delete")
 
 
     bt1.setAttribute("id", "bt11");
