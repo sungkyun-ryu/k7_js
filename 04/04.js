@@ -11,6 +11,7 @@
     const com_img = document.querySelector("#com_img");
     const user_img = document.querySelector("#user_img");
     const resultboard = document.querySelector("#resultboard");
+    const eqls = document.querySelector("#eqls");
 
     // console.log(resultboard);
 
@@ -54,11 +55,16 @@
 
             if(com_num > user_num) {
                 resultboard.textContent = "You Lose!";
+                eqls.textContent = ">"
             } else if(com_num == user_num) {
                 resultboard.textContent = "Draw Game!";
+                eqls.textContent = "="
             } else {
                 resultboard.textContent = "You Win!"
+                eqls.textContent = "<"
             }
+
+        
             
             // console.log(user_num);
             // console.log(com_num); 

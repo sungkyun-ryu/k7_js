@@ -16,6 +16,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const n= Math.floor(Math.random() * 6) + 1 ; 
         die.setAttribute('src', `../03/img/${n}.png`)
         die.setAttribute('alt', `${n}`)
+
+        if()
     })
 
 })

@@ -5,4 +5,5 @@ article > div {
 #msg {
     height: 100px;
     margin: 2rem;
+    font-size: 30px;
 }

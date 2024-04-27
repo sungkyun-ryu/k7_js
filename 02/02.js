@@ -11,13 +11,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const btDiv = document.getElementById("btDiv");
     const bt1 = document.createElement("button");
-    const bt1Text = document.createTextNode("Button 1");
+    const bt1Text = document.createTextNode("Good");
 
     const bt2 = document.createElement("button");
-    const bt2Text = document.createTextNode("Button 2");
+    const bt2Text = document.createTextNode("Bad");
 
     const bt3 = document.createElement("button");
-    const bt3Text = document.createTextNode("Delete")
+    const bt3Text = document.createTextNode("Reset")
 
 
     bt1.setAttribute("id", "bt11");
@@ -32,23 +32,23 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     bt1.addEventListener('click', () => {
-        if (document.querySelector("#msg").innerHTML == "")
+        // if (document.querySelector("#msg").innerHTML == "")
             document.querySelector("#msg").innerHTML
-                = "<h1>How are you?</h1>"
+                = "Feeling GOOD :)"
 
-        else
-            document.querySelector("#msg").innerHTML
-                = ""
+        // else
+        //     document.querySelector("#msg").innerHTML
+        //         = ""
 
     })
 
     bt2.addEventListener('click', () => {
-        if (document.querySelector("#msg").innerHTML == "")
+        // if (document.querySelector("#msg").innerHTML == "")
             document.querySelector("#msg").innerHTML
-                = "<h1> Hi!! </h1>"
-        else
-            document.querySelector("#msg").innerHTML
-                = ""
+                = "Feeling BAD :( "
+        // else
+        //     document.querySelector("#msg").innerHTML
+        //         = ""
     })
 
     bt3.addEventListener('click', () => {
