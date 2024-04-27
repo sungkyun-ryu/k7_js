@@ -129,13 +129,14 @@ div {
     width: 100%;
     height: 60px;
     background-color: bisque;
-    border: 1px dotted gainsboro;
+    /* border: 1px dotted gainsboro; */
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: large;
     font-weight: bold;
     margin: 10px;
+
 }
 
 button {
@@ -175,5 +176,5 @@ article > div {
     height: 500px; 
     justify-content: space-between;
     padding: 4rem;
-
+    
 }

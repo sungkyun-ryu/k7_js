@@ -3,10 +3,14 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 500px; 
+    height: 400px; 
     padding: 5rem;
 }
 
 article > div {
     width: 80%; 
+}
+
+button {
+    margin-top: 50px;
 }

@@ -11,10 +11,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const btDiv = document.getElementById("btDiv");
     const bt1 = document.createElement("button");
-    const bt1Text = document.createTextNode("Button 11");
+    const bt1Text = document.createTextNode("Button 1");
 
     const bt2 = document.createElement("button");
-    const bt2Text = document.createTextNode("Button 22");
+    const bt2Text = document.createTextNode("Button 2");
 
     const bt3 = document.createElement("button");
     const bt3Text = document.createTextNode("Delete")

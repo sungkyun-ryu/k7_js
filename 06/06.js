@@ -25,22 +25,35 @@ document.addEventListener('DOMContentLoaded', ()=> {
     const label1= document.querySelector("#label1"); 
     const label2= document.querySelector("#label2");
 
-    /// labels are not working... find the problem. 
-
     sel1.addEventListener('change', ()=> {
         console.log(sel1.value, sel2.value);
         if(sel1.value == 'CC') {
             sel2.value = 'FF'; 
             label1.textContent = '℃';
             label2.textContent = '℉';
-
-        } 
+            
+            input2.value= (input1.value  * 9/5 + 32).toFixed(2);
+            
+        }    
         else {
             sel2.value = 'CC'; 
             label1.textContent = '℉';
-            label2.textContent = '℃'; 
+            label2.textContent = '℃';
+            
+            input2.value=((input1.value - 32) * 5/9).toFixed(2);
+            
         }
+        
     })
+    
+    input1.addEventListener('input', () => {
+        if(sel1.value == 'CC') 
+            input2.value= (input1.value  * 9/5 + 32).toFixed(2);
+        else 
+            input2.value=((input1.value - 32) * 5/9).toFixed(2);
+    })
+
+
 
     sel2.addEventListener('change', ()=> {
         console.log(sel1.value, sel2.value);
@@ -49,13 +62,21 @@ document.addEventListener('DOMContentLoaded', ()=> {
             label2.textContent = 'C';
             label1.innerHTML = 'F';
 
+            input2.value=(input1.value - 32) * 5/9;
+
         } 
         else {
             sel1.value = 'CC'; 
             label2.textContent = 'F';
             label1.innerHTML = 'C'; 
+
+            input2.value= input1.value  * 9/5 + 32;
         }
     })
+
+    
+
+    
 
 
     
