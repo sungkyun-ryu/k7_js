@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+}
+
+h2 {
+    background-color: beige;
+}
+
+.container {
+    width:100%;
+    height: 200px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+}
+form {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    height: 110%; 
+    justify-content: center;
+}
+
+.buttons81, .buttons82, .buttons83, #inputs  {
+    display: flex; 
+    justify-content: space-between;
+    height: 40px;
+    width: 60%; 
+    margin: 1rem;
+}
+
+
+button {
+    width: 32%; 
+    margin: .2rem;
+}
+
+#input1 {
+    width: 100%;
+    height: 120%; 
+    margin: 0 .2rem;
+}

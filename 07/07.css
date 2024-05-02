@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+}
+
+h2 {
+    background-color: beige;
+}
+
+.container {
+    width:100%;
+    height: 200px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+}
+form {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    height: 110%; 
+    justify-content: center;
+}
+
+.buttons, #inputs  {
+    display: flex; 
+    justify-content: space-between;
+    height: 40px;
+    width: 60%; 
+    margin: .5rem;
+}
+
+#bt1, #bt2, #bt3 {
+    width: 32%; 
+}
+
+#input1, #input2 {
+    width: 48%; 
+}

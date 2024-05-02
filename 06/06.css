@@ -101,6 +101,7 @@ select {
     padding: 4rem;
     margin: 1rem;
     border: 0;
+    /* flex-wrap: wrap;  */
 }
 
 .nametag {
